@@ -1,0 +1,271 @@
+**********GIT E GITHUB*************
+
+<<<<<<<<<Introdução ao GIT>>>>>>>>>
+
+*Entendendo o que é GIT e sua importância
+Software para monitorar e alterar projetos. 
+
+
+**1-Controle de Versão
+**2-Armazenamento em nuvem
+**3-Trabalho em equipe
+**4-Melhorar seu código
+**5-Reconhecimento
+
+
+Comando Basicos para um bom desempenho no terminal
+
+GUIxCLI
+
+GRAFIC USER INTERFACE x COMAND LINE INTERFACE
+
+Comand Line Interface.
+
+O que vamos aprender?
+-Mudar de pastas
+-Listar as pastas
+-Criar pastas/arquivos
+-Deletar pastas/arquivos
+
+Windows      Unix
+-cd         -cd
+-dir        -Is
+-mkdir      -mkdir
+-del/rmdir  -rm -rf
+
+Abra o CMD 
+Dir diretorios
+CD 
+
+cd + tab autocompleta a palavra ou diretorio.
+
+mkdir workspace (MKDIR CRIA DIRETORIO)
+
+rmdir "" /s /q (apaga diretorio)
+
+
+
+-SHA1
+-Objetos fundamentais
+-Sistema distribuido 
+-Segurança
+
+SHA1 
+ALGORITIMO DE INCRIPTACAO
+
+A sigla SHA Significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptograficas
+projetadas pela NSA(Agencia de Seguranca Nacional dos EUA).
+A encriptação gera um conjunto de caracteres de indetificador de 40 digitos.
+EXEMPLO
+È UMA FORMA CURTA DE REPRESENTAR UM ARQUIVO.
+1 echo "ola mundo" |openssl sha1
+2 > (stdin)=f9fc856e559b950175f2b7cd7dad61facbe58e7b
+
+
+arquivos com mesmo caracteres sera gerado a hash exatamentente igual 
+caso altere qualquer caractere sera alterado a hash
+voltando a o modelo igual ao original a hash sera exatamente igual a primeira hash
+
+
+OBJETOS INTERNOS DO GIT
+
+BLOBS
+TREES
+COMMITS
+
+BLOBS
+1 echo 'conteudo'| git hash-object --stdin   (STRING do GIT)
+2 > fc31e91b26cf85a55e072476de7f263c89260eb1  ( SHA1)
+3
+4 echo -e 'conteudo' | openssl sha1
+5 > 65b0d0dda479cc03cce59528e28961e498155f5c   (SHA1)
+
+
+******Blob (metadados)TIPO OBJETO 
+Tamanho 42 (Tamanho da string ou arquivo)
+\0 
+Ola Mundo  (conteudo do arquivo)***** estrutura basica de um BLOBS
+
+
+
+1 echo 'conteudo'| git hash-object --stdin   (STRING do GIT)
+2 > fc31e91b26cf85a55e072476de7f263c89260eb1  ( SHA1)
+3
+4 echo -e 'blob 9\0conteudo' | openssl sha1
+5 > fc31e91b26cf85a55e072476de7f263c89260eb1   (SHA1)
+
+
+
+Tree  (armazena metadados e o blob e guarda o nome do arquivo )
+\0 <tamanho> 
+blob sa4d8s texto.txt
+
+
+COMMIT ( Junta tudo)
+
+Commit
+tree   s4a5sq1
+parente a98acq1
+autor    perkles 
+mensagem "inicia..."
+timestamp 
+
+o SHA1 desse commit é o hash de toda a esses informação
+
+
+Sistema distribuido Seguro
+
+
+CHAVE SSH E TOKEN 
+
+Estabelecer conexao segura e encritada por 2 maquinas confiaves. com Chaves publicas e privada.
+
+**********IMPORTANTE********************
+
+Comandos para vincular a maquina ao GITHUB/GIT
+ssh-keygen -t ed25519 -C gabrieljknd@gmail.com
+enter enter
+
+cd /c/users/nomedo usuario/.ssh/
+ls
+cat id_ed25519.pub (chave Publica)
+enter
+
+pwd mostra caminho completo dentro do terminal 
+
+eval $(ssh-agent -s)
+ls
+ssh-add id_ed25519   (chave privada)
+senha 
+
+
+git clone (cola a sha) pra baixar o repositorio no pc
+
+
+
+rodar em AGENT PID 1382 pra comunicar com o git. Sempre fazer antes de usar o github.. dentro do gitbash
+*****************************************
+
+
+
+TOKEN DE ACESSO PESSOAL
+
+ferramentas desenvolvedor...
+Protocolo HTTPS
+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
+********************************************************************************
+Primeiros comandos com o GIT
+
+
+
+-INICIAR O GIT
+-INICIAR O VERSIONAMENTO
+-CRIAR UM COMMIT
+
+-git init   (inicia o repositorio)
+-git add    (move arquivos)
+-git commit (cria commit)
+
+Criando um repositorio 
+
+cd c 
+ls 
+mkdir cria repositorio 
+
+cd repositorio
+git init
+ls -a ver arquivo oculto 
+cd .git
+ls
+cd .. volta um nivel 
+git config --global user.email "gabrieljknd@gmail.com" 
+git config --global user.name Cronuzgamer
+mv nomearquivo.formato ./pasta/  move arquivo no bash
+git status
+git add nomearquivo.formato nomepasta/
+git commit -m "adicionar e comitar"
+
+
+Markdown 
+#Titulo nivel 1
+##Titulo nivel 2
+###Titulo nivel 3
+####Titulo nivel 4
+#####Titulo nivel 5
+######Titulo nivel 6
+
+.MT = markdown 
+TYPORA 
+Espaco - Espaco  ponto de lista 
+_Italico 
+
+Pesquisar markdown 
+
+
+commitar o arquivo 
+
+git add *
+git commit -m "receitas"
+
+
+Ciclo de vida dos arquivos dentro do GIT
+
+GIT INIT / Cria pasta e inicia o repositório dentro do diretório.
+
+Tracked ou Untracked
+
+Tracked 
+
+Unmodified Modified Staged
+
+
+Untracked 
+
+Adiciona o arquivo para o Staged (onde fica ) 
+
+Modified Edita o arquivo e vai pra Modified (Devido a alteracao do SHA1)
+tambem entra no Staged
+
+Unmodified se removido ele vai pro Untracked de novo sem passar por outros caminhos 
+
+No Staged ele se prepara para fazer parte de um Commit
+E ele fica pronto no Unmodified para ser Modified no Staged.
+è um ciclo.
+
+*******************************************************************************
+Repositório
+
+Ambientes de desenvolvimento... 
+Area de trabalho na maquina// Stagin Area/// Local Repository///
+
+E o Remote repository no ///Servidor///
+
+*******************************************************************************
+Git Add adiciona o arquivo na area de staged.
+Stagin area para o Local Repository 
+
+Commit move arquivos tanto do local repository quanto para o Remote repository.
+
+********************************************************************************
+
+
+git config --list (exibe as configuracoes)
+para alterar 
+git config --global -- unset user.email (escolher a configuracao a ser alterada)
+git config --global -- unset user.name
+_____
+git config --global user.name ( cria a alteracao )
+
+********************************************************************************
+
+
+UPAR PARA O GITHUB
+Cria repositorino no GITHUB 
+PEGA LINK
+git remote add origin (cola link)
+git push origin master 
+git pull origin master
+********************************************************************************
+
+
+

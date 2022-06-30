@@ -1,0 +1,1522 @@
+*********1-Pensamento Computacional *****************
+
+Processo de pensamento envolvido na expressão de soluçõees em passos computacionais ou 
+algoritmos que podem ser implementados no computador.
+
+Sistemátio e eficiente (formulação e resolução de problemas)
+Sejam capazes de resolver( Humanos & Maquinás)
+
+Habilidade Generalista
+Matematica
+Leitura
+Escrita
+
+Baseado em 4 pilares
+Decomposição: (transforma o "problema" grande em pequenos "Problemas" Subproblemas.
+
+Reconhecimento de Padrões:Similaridade e diferença entre os problemas. (padrões)
+
+Abstração:Extrapolar o conceito do problema para uma forma generalista. C=2.pi.r(C=circunferência,r= raio)
+do mundo concreta para o mundo das ideias. (Classes, métodos, herança, polimorfismo.POO)
+
+Design de algoritmos:Automatizar (Definir passo a passo a solução do problema.)(Input(entrada)>Operator(operador)>Output(saída))_ Processo contínuo. Definir uma solução, testar a Solução; Aperfeiçoamento encontrada.) 
+Refinamento > Teste> Análise;) Analise= Execução da solução e avaliação.(refinamento) Abstração )resolução de problemas. 
+Automatização.=Expressão de soulução.
+
+
+Raciocinio lógico>Decomposição>Padrões>Abstração>Algoritimos>Refinamento>
+Exemplos:
+Quimica. Aperfeiçoamento de reacoes quimidcas, pela utilizacao de algoritmos. através da identificação de quimicos
+enegenharia. Simulções de aeronaves executadas via software e detrimento do tunel de vento.
+Biologia 
+Modelagem e mapeameno do genoma umano 
+Computação.Simulação de problemas de alta ordem em supercondutores
+
+Competências 
+.Pensamento sistemãtico.
+.Colaboração dentro da equipe
+.Criatividade e design
+.Facilitador
+
+2-Habilidades complementares.
+
+Raciocinio logico
+é uma forma de pensamento estruturado, ouy raciocinio, que permite encontrar a conclusao ou determinar a resolução de um
+problema. 
+Habilidade de treinamento.
+Indução Fenomeno observado. Indução Leis e Terorias (Ciencias experimentais)
+Dedução  Previsões e explicações (Ciencias exatas)
+Abdução Ex: A grama está molhada, logo deve ter chovido. (Premissa) Tirar conclusões a apartir de uma Abdução.;
+(Processo investigativo; Diagnósticos)
+
+             Inferencia 
+    Sintética          Analítica 
+Abdução Indução         Dedução
+
+Um Pai, mãe e seu casal de filhoes estão sentados em uma mesa. Os homens se chama Roberto e Sérgio, as mulheres Teresa e Fernanda. Sabe-se que o pai está à frente de Fernanda e o filho e esquerda;e que a mãe está do lado direito de Sérgio.
+
+ Roberto       Fernanda
+  Filho       Mesa  Mãe Teresa
+	Pai  Sérgio 
+
+
+
+Aperfeiçoamento
+
+Melhoramento         Ato de Aperfeiçoar
+
+Aprimoramento     A apartir de uma solução, 
+                  determinar pontos de melhora e 
+                  refinamento
+Refinamento 
+
+              Ato de Aperfeiçoar 
+*Encontrar solução eficiente (Melhor uso de recursos)
+*Otimizar processos
+
+*Simplificar linha de códigos (Melhorar códigos e algoritmos)
+*Funções bem definidas
+
+
+Decomposição
+
+Primeiro passo da resolução de problemas dentro do conceito de pensamento computacional
+
+"Dado um problema complexo, devemos quebra-lo em problemas menores.
+Portanto, problemas mais fáceis e gerenciaveis."
+
+Estratégia
+Processo de quebrar e determinar partes menores e gerenciáveis.
+
+Análise
+Estudar, explorar 
+
+"realizar exame detalhado"
+Decompor em elementos constituíntes
+
+
+Síntese 
+Combinar os elementos recompondo o problema original
+Processo de reconstrução, fundior os elementod de maneira coerente, consiste em reunir elementos distintos em um único elemento.
+
+Sequêncial E paralelo
+Ordem de execução de tarefas menores
+dependencia entre tarefas. Executadas em "fila"
+
+Paralelo 
+Tarefas podem ser executadas concomitantemente, + efiecia - tempo.
+
+Variaveis 
+Pequenos problemas 
+Segmentacao 
+*Não basta aplicar 
+*Desenvolver a decomposição "by yourself"
+Maneiras distintas de decompor o mesmo problema. (procurar a mais eficiente)
+
+
+Como decompor?
+Indentificar ou coletar dados___> Agregar os dados____> Funcionalidade 
+
+Ex do cotidiano:Cozinhar
+*indentificar os ingredientes
+*Determinar as etapas (sequencial ou paralelo)
+*Executar cada etapa
+*Agregar os ingredientes para finalizar( Recompor com coerência)
+
+Exemplo Arroz... passo a passo pra fazer arroz.
+
+Ex do cotidiano: funcionalidade de uma bike 
+*Identificar os componentes
+*Papel de cada componente
+*Interdependência das peças
+
+Ex Criar app
+*Finalidade(pra que serve)
+*interface
+*Funcionalidades (o que vai ter dentro do app
+*Pré-requisitos (para funcionar) 
+Deselvolvimento mais eficiente
+
+Ex Artigo
+*o que será abordado?
+*Estrutura
+*Conteúdo de cada tópico
+*Textos de conexão
+Definição de componentes e etapas.
+Sequencial ou paralelo em ordem ou não
+
+
+Ex Movimentos de um avatar
+
+
+				AÇÕES
+	PADRÃO					MOVIMENTO
+	  v					    v
+
+	VIRAR          MOVER		ANDAR CORRER SENTAR LEVANTAR	
+	  V 		 v			V   
+   DIREITA ESQUERDA  CIMA BAIXO      MOVER_PERNA IMPULSIONAR
+
+ PADRÕES
+
+RECONHECIMENTO DE PADRÕES 
+*MODELO BASE
+*ESTRUTURA INVARIANTE 
+*REPETIÇÃO
+
+SIMILARIDADES E DIFERENÇAS
+
+EX: FOTOS DE REDES SOCIAIS
+
+FOTO> COMPRESSAO> SALVA NO SERVIDOR DE DADOS
+
+PROCESSO UTILIZADO POR PLATAFORMAS DIFERENTES.
+
+EX: COMPRESSAO DE DADOS 
+DADO O VETOR 
+AZUL AZUL AZUL VERDE VERDE AMARELO PRETO PRETO AMARELO 
+( 3 AZUL 2 VERDE 1 AMARELO 2 PRETO 1 AMARELO )DIMINUI O QUE Á ACIMA
+COMPRESSÃO POR RECONHECIMENTO DE PADRÕES;
+
+RECONHECIMENTO DE PADROS 
+*POR QUE DETERMINAR PADRÕES?
+
+GENERALIZAR, COM OBJETIVO DE OBTER RESOLUÇÃO PARA PROBLEMAS DIFERENTES. 
+
+CLASSES E CATEGORIAS
+CATEGORIA:TIPO DE MEDIA; DEPENDEM DO DOMINIO.
+
+
+PELO SER HUMANO 
+*GRAU DE SIMILARIDADE
+*GRUPOS CONHECIDOS X OBJETO DESCONHECIDO 
+
+COMO O COMPUTADOR RECONHECE PADRÕES?
+POR COMPARAÇÃO
+REPRESENTAÇÃO DE ATRIBUTOS 
+APRENDIZADO-CONCEITO ASSOSCIADO AO OBJETO 
+ARMAZENA DADOS (PARA CONSULTAR DEPOIS)
+REGRAS DE DECISÃO
+COMO SIMULAR ESSE COMPORTAMENTO?
+EM RESUMO 
+EXTRAÇÃO DE CARACTERISTICAS     (ABORDAGEM)
+CLASSIFICACAO DE DADOS
+
+     DIFERENTES 
+METODOS E APLICAÇÕES
+
+APLICAÇÕES 
+*CLASSIFICAÇÃO DE DADOS
+*RECONHECIMENTO DE IMAGEM
+*RECONHECIMENTO DE FALA
+*ANÁLISE DE CENAS 
+*CLASSIFICAÇÃO DE DOCUMENTOS
+
+QUEM UTILIZA 
+MACHINE LEARNING 
+REDES NEURAIS 
+INTELIGENCIAS ARTIFICIAL
+CIENCIAS DE DADOS.
+
+         ABSTRAÇÃO 
+GENERALIZAÇÃO/ABSTRAÇÃO 
+
+
+          ABSTRAIR                  
+OBSERVAR, UM OU MAIS ELEMENTOS,
+AVALIANDO AS CARACTERISTICAS 
+E PROPRIEDADES EM SEPARADO
+
+         ABSTRAÇÃO
+PROCESSO INTELECTUAL DE 
+ISOLAMENTO DE UM 
+OBJETO DA REALIDADE
+
+	 GENERALIZAR
+TORNAR-SE GERAL, MAIS AMPLO, EXTENSÃO
+
+
+GENERALIZAÇÃO, NA LOGICA, É 
+A OPERAÇÃO INTELECTUAL QUE CONSISTE EM REUNIR NUMA 
+CLASSE GERAL UM CONJUNTO DE SERES OU FENÔMENOS SIMILARES
+
+COMO CLASSIFICAR OS DADOS?
+*CARACTERISTICAS
+*PONTOS ESSENCIAS
+*GENERALIZAR X DETALHAR
+
+REPRESENTAÇÃO  DE DADOS
+ESTUDANDES
+CARACTERISTICAS 
+
+PONTOS ESSENCIAIS
+
+*NOME COMPLETO 
+*MATRICULA
+*ENDEREÇO
+*CAMPUS
+*CURSO
+*TELEFONE
+*E-MAIL
+....
+
+DETALHES
+
+*TRABALHO
+*TEM FILHOS 
+*PROGRAMA PREFERIDO
+*LIVRO PREFERIDO
+*TAMANHO DO CALÇADO
+....
+
+CONCEITOS BASEADOS EM ABSTRAÇOES 
+MERGE SORT IMPUT
+CLUSTETING OPERATOR
+BUSCA BINARIA  OUTUT
+
+ARVORE>LISTA>GRAFOS
+
+JAVA PYTHON C++
+
+MAQUINAS DE ESTADO INFINITO  
+
+
+CONCEITOS BASEADOS EM ABSTRAÇÃO 
+BCA ASSINCRONA
+ABC SINCRONA
+DADOS PROCESSADOS 
+*
+*
+*
+* 
+*
+
+ARQUITETURAS...
+LAYER 3
+LAYER 2
+LAYER 1
+
+
+CLIENTE<>SERVIDOR
+
+EXEMPLOS 
+ CLASSIFICAR? NAO 
+COMO LIMPAR O TERRENO 
+
+DISTANCIAS? SIM 
+
+
+ALGORITIMOS 
+
+COMPUTADOR É 
+*ENERGIA
+*TRABALHADOR
+*EFICIÊNCIA
+*RAPIDEZ
+
+PRECISA DE INSTRUCOES DETALHADAS 
+PROCESSAMENTO DE DADOS 
+
+O COMPUTADOR RECEBE, MANIPULA E ARMAZENA DADOS,.
+
+PROGRAMAS SAO INSTRUÇOES
+
+PROCESSO DE RESOLUCAO DE PROBLEMAS "STEP BY STEP"
+UTLIZANDO INSTRUÇÕES
+
+O QUE PRECISA SER FEITO        
+QUE A ORDEM DE EXECUCAO ?    INSTRUÇÕES
+
+ENTENDIMENTO POR HUMANO E MAQUINA
+
+DESENVOLVIMENTO DE PROGRAMA
+*ANALISE
+ESTUDO E DEFINICAO DOS DADOS DE ENTRADA E     INSTRUCOES DETALHADAS>ALGORITMO>PROGRAMA
+
+*ALGORITMO 
+DESCREVE O PROBLEMA POR MEIO DE FERRAMENTAS NARRATIVAS, 
+FLUXOGRAMAS OU PSEUDOCÓDIGO.
+
+*CODIFICAÇÃO
+o ALGORITMO É CODIFICADO DE ACORDO COM A LINGUAGEM DE PROGRAMAÇÃO ESCOLHIDA 
+
+
+
+SEQUENCIA DE PASSOS COM OBJETIVO DEFINIDO 
+EXECUÇÃO DE TAREFAS ESPECIFICAS
+CONJUNTO DE OPERACOES QUE RESULTAM EM UMA SUCESSAO DE INFINITAS ACOES
+
+EXEMPLO 
+PREPARAR UM SANDUICHE 
+TROCAR UMA LAMPADA
+FAZER UMA RECEITA DE BOLO
+TRAJETO AO TRABALHO
+INSTRUCOES EXECUTADAS PASSO A PASSO PARA CONCLUIR UMA TAREFA
+
+COMO CONSTRUIR UM ALGORITMO?
+*COMPREENSAO DO PROBLEMA
+*DEFINICAO DE DADOS DE ENTRADA
+*DEFINIR PROCESSAMENTO 
+*DEFINIR DADOS DE SAIDA
+*UTILIZAR UM METODO DE CONSTRUÇÃO
+*TESTE E DIAGNÓSTICOS 
+
+CONSTRUCAO              SEM CONCEITOS NOVOS 
+
+*NARRATIVA:UTILIZAÇÃO DA LINGUAGEM NATURAL 
+
+*FLUXOGRAMA:UTILIZACAO DE SIMBOLOS PRÉ DEFINIDOS (ESTRUTRA GRAFICA)
+
+*PSEUDOCÓDIGO:PORTUGOL
+
+DIVERSAS INTERPRETAÇÕES POSSIVEIS
+
+EXEMPLOS 
+ MULTIPLICACAO DE DOIS NUMEROS:
+PASSO 1-RECEBE VALORES 
+PASSO 2- MULTIPLICA
+PASSO 3-IMPRIME RESULTADO 
+
+(INICIO)____>>> /N1,N2/ ____>>>|M=N1*N2|_____>>>|M/______>>>(FIM)
+
+MEDIA DE ALUNOS:
+PASSO 1- RECEBE VALORES
+PASSO 2- REALIZA A OPERACAO
+PASSO 3- MOSTRA RESULTADO DA OPERACAO 
+PASSO 4- REGRA DE APROVACAO 
+PASSO 5- IMPRIME RESULTADO 
+
+
+		VARIAVEIS 
+(INICIO)____>>> /N1,N2/ ____>>>|M=(N1*N2)/2|_____>>>|M/______>>>(FIM)
+						     v
+						  M>- 7
+					APROVADO        REPROVADO 
+
+
+
+ESTUDO DE CONCEITUAL: PERDIDO
+
+
+COMO RESOLVER O PROBLEMA UTILIZANDO O PENSAMENTO COMPUTACIONAL 
+*INDENTIFICAR MECANISCMOS
+*RECURSOS COMUNS 
+*DETALHES MAIS IMPORTANTES
+
+
+SOBREVIVENCIA >>. AGUA>>> COMIDA>>>> ABRIGO.
+
+DECOMPOSICAO DO PROBLEMA
+
+
+	 	  AGUA>>>>> CHUVA>>> NASCENTE >>>> FOGO 
+
+  
+SOBREVIVENCIA >>> COMIDA>>>COLETAR>>> CAÇAR >>>>FOGO
+
+
+		  ABRIGO >>> LOCALIZACAO >. PROTECAO>>>QUENTE SECO 
+
+
+SO FAR SO GOOD.....
+
+*DECOMPOSICAO 
+*RECONHECIMENTO DE PADROES
+*ABSTRAÇÃO
+
+
+PROXIMO PASSO....
+
+PREPARANDO COMIDA 
+*PEGAR PEIXE
+*COLOCAR AGUA NA PANELA
+*FERVER A AGUA
+*LIMPAR O PEIXE
+*FAZER O COZIDO 
+*ASSAR O FILÉ
+
+MESMO PROCESSO PARA
+*ENCONTRAR AGUA
+*CONSTRUIR ABRIGO 
+*MAXIMIZAR AS CHANCES DE RESGATE
+
+ESTUDO DE CASO APLICADO : SOMA DE UM INTERVALO
+
+EX: SOMA DE N ENTRE 1 E 200
+
+
+1+2
+1+3
+1+4  solucao ineficiente
+1+5
+
+outra forma de expressar a solução 
+
+200+1         =201
+199+2         =201
+198+3
+198+4
+
+
+**********2-introduçao a logica de programacao*****************
+
+ESTA AULA FOCA EM APRESENTAR O CONCEITO DE LOGICA
+APLICADA A PROGRAMACAO, COMO UM PROCESSO DE PENSAMENTO 
+ATRELADO AO CONCEITO DE ALGORITMOS E RESOLUCAO DE 
+PROBLEMAS
+
+o que é logica?
+PROBLEMA DEFINICAO FORMAL
+
+"PROBLEMA É UMA QUESTÃO QUE FOGE A UMA DETERMINADA REGRA,
+OU MELHOR É UM DESVIO DE PERCURSO, O QUAL IMPEDE DE ATINGIR UM 
+OBJETIVO COM EFICIENCIA E EFICACIA."
+
+LOGICA 
+PARTE DA FILOSOFIA QUE TRATA DAS FORMAS DO PENSAMENTO EM GERAL (DEDUCAO, INDUICAO, HIPOTESE, INFERENCIA ETC.) E DAS OPERACOES
+INTELECTUAIS QUE VISAM A DETERMINACAO DO QUE É VERDADEIRO OU NAO.
+FORMA DE PENSAMENTO ESTRUTURADA
+
+LOGICA NA PROGRAMACAO
+ORGANIZACAO E PLANEJAMENTO DAS INSTRUÇÕES, ASSERTIVAS EM UM ALGORITMO , A FIM DE VIABILIZAR A IMPLANTACAO DE UM PROGRAMA.
+
+
+PERCEBE QUE ESSA DEFINICAO SE APLICA AO SEU COTIDIANO 
+SEQUENCIA DE INSTRUCOES
+ACOES>>ACOES>>ACOES>>>ALVO.
+
+FALTA DE COSTUME 
+SERES HUMANOS PODEM PREVER COMPORTAMENTOS, COMPUTADORES NAO.
+
+COMPUTADOR PRECISA INSTRUÇOES DETALHADAS.
+
+"EVERYBODY IN THIS COUNSTRY SHOULD LEARN HOW TO PROGRAM A COMPUTER BECAUSE IT TEACHER YOU HOW TO THINK," STEVE JOBS.
+
+TECNICAS DE LOGICA DE PROGRAMACAO 
+
+EXEMPLO
+
+PLANEJAMENTO DE CONSTRUCAO DE PREDIO...
+COMECA COM PLANTA BAIXA...
+PROJETO....
+PLANEJAMENTO...
+SEGUEM A LOGICA E DETERMINAM AS INSTRUÇOES.
+
+TUDO ENVOLVE PENSAMENTO LOGICO
+
+TECNICA LINEAR 
+*MODELO TRADICIONAL
+*NAO TEM VINCULO 
+  *ESTRUTURA HIERARQUICA
+  *PROGRAMAÇÃO DE COMPUTADORES. ASSOSSIADA A MATEMATICA 
+EXECUSSAO SEQUENCIADA
+RECURSOS LIMITADOS 
+UNICA DIMENSAO.
+
+MODELO DE DESENVOLVIMENTO E RESOLUCAO DE PROBLEMAS
+EX...
+DORMIR...
+ACORDAR...
+ANDAR NAS ESCADAS...
+PREPARA O CAFÉ
+TOMAR CAFÉ...
+
+MANEIRA ORDENADA E SEQUENCIAL 
+
+
+
+TECNICA ESTRUTURADA
+
+ESTRUTURA
+ORGANIZACAO, DISPOSICAO E ORDEM DOS ELEMENTOS ESSENCIAIS QUE COMPOEM UM CORPO (CONCRETO OU ABSTRATO)
+
+		ESCRITA          PROGRAMAS
+		ENTENDIMENTO
+OBJETIVO	VALIDACAO 
+		MANUTENCAO     FACILITADOR  
+
+
+EXEMPLO
+DORMIR
+ACORDAR 
+ANDAR NAS ESCADAS
+PREPARAR CAFE
+PREPARAR SUCO 
+BEBER CAFE 
+BEBER SUCO ...
+
+
+TECNICA MODULAR    PARTES INDEPENDENTES 
+MODULO 1   	   CONTROLADAS POR UM CONJUNTO DE REGRAS
+MODULO 2   	   *SIMPLIFICACAO
+MODULO 3	   *DECOMPOR O PROBLEMA
+MODULO 4	   *VERIFICACAO DO MODULO
+
+DADOS DE ENTRADA>>>PROCESSO DE TRANSFORMACAO>>>>DADOS DE SAIDA.
+
+
+REGRAS
+MODULO PREPARAR ACORDAR     TODAS AS ATIVIDADES NECESSARIAS PARA EXECUTAR TAL TAREFA
+
+MODULO PREPARAR BEBIDA
+
+MODULO TOMAR CAFE DA MANHA 
+
+*****3-FUNDAMENTOS DE ALGORITMOS.******
+
+TIPOLOGIA E VARIAVEIS. 
+NESTA AULA SERAO APRESENTADOS OS CONCEITOS BASICOS PARA O CORRETO ENTENDIMENTO DE ALGORITMOS.
+ESSES CONCEITOS COMO, VARIAVEIS, TIPOS DE DADOS, INSTRUCOES, CONDICOES, ENTRE OUTROS TEMAS RELACIONADOS.
+
+
+TIPOLOGIA E VARIAVEIS
+QUAL A FUNCAO DO COMPUTADOR
+
+PROCESSAR INFORMACOES 
+DADOS E INSTRUÇÕES. 
+
+TRATADOS E PROCESSADOS 
+TIPOS EXISTENTES
+NUMERICOS, CARACTERICOS E LOGICOS
+
+TIPO NUMERICO 
+INTEIRO 0,1,5,50,60,800-58  NUMEROS INTEIROS
+REAIS 5.95,9.54,-8.8... COM NUMEROS FRACIONADOS
+
+
+CARACTER TUDO
+TODOS OS SIMBOLOS LETRAS E NUMEROS 
+"PROGRAMACAO"
+"programacao"
+"KU*&NH53g"
+"Fone:(25)99865-5741"
+
+
+Logico (booleano( verdadeiro ou falso)
+Verdadeiro 1
+Falso 0
+
+VARIAVEL 
+
+MUTÁVEL 
+POSSUI VARIACOES
+INCERTO
+INCONSTANTE
+INSTAVEL 
+
+O QUE É UMA VARIAVEL... 
+ELA É UM TIPO DE ESTRUTURA MUTAVEL E PODE VARIAR DENTRO DE SEU VALOR
+E É INCONSTANTE PODE RECEBER MAIS DE UM VALOR E MODIFICAR O SEU CONTEUDO.
+
+VARIAVEL -PODE ASSUMIR QUALQUER UM DOS VALORES DE UM DETERMINADO CONJUNTO DE VALORES
+
+A-B=D      A+B=C
+
+RESTRITA AO SEU TIPO... 
+SE FOR NUMERICO APENAS RECEBE NUMERICO
+SE FOR STRING RECEBE APENAS STRING
+
+VARIAVEL IGUAL CAIXA DENTRO DE ARMARIO
+
+NOME DA VARIAVEL 
+
+REGRAS 
+*ATRIBUICAO DE UM OU MAIS CARACTERES
+*PRIMEIRA LETRA- NÃO NUMERO
+*SEM ESPACOS EM BRANCO
+*VETADO 
+ *UTILIZACAO DE PALAVRAS RESERVADAS DE UMA LINGUAGEM 
+*CARACTERES E NUMEROS 
+
+EX
+X2 NOME_USUARIO
+TELEFONE
+Z4
+USER12
+
+
+PAPEIS DE UMA VARIAVEL 
+
+ACAO  MODIFICA ESTADO 
+
+
+CONTROLE CONTROLE DE UMA ESTRUTURA VIGIADA, CONTROLE.
+
+
+CONSTANTE
+INALTERAVEL, O QUE NAO MUDA, INVARIAVEL
+
+DEFINICAO 
+TUDO AQUI QUE É FIXO OU ESTAVEL. 
+PI=3,14
+PHI=1,618
+RESULTA=RECEBIDO*0.10 
+
+OBJETIVO
+
+INFORMACAO 
+DADOS (TRATADOS E PROCESSADOS )           INSTRUCOES (OPERACOES)
+
+INSTRUCOES PRIMITIVAS
+
+CALCULOS MATEMATICOS 
+VARIAVEIS 
+CONSTANTES                   OPERADORES
+			BINARIOS OU UNARIO
+
+OPERADOR  OPERACAO   TIPO   PRIORIDADE MATEMATICA  TIPO DE RETORNO DE RESULTADO 
++     MAN. DE SINAL UNARIO               1                    POSITIVO 
+-     INVER. SINAL  UNARIO               1           	      NEGATIVO 
+
+
+EXEMPLO 
+
+VARIAVEL AREA= CONSTANTE PI*RAIO²=VARIAVEL RAIO 
+
+DEFINICAO FORMAL 
+
+O QUE SAO INSTRUÇÕES?
+INSTRUÇOES SAO LINGUAGEM DE PALAVRAS-CHAVE (VOCABULARIO) DE UMA DETERMINADA DE PROGRAMACAO QUE TEM POR FINALIDADE COMANDAR 
+UM COMPUTADOR QUE IRÁ TRATAR OS DADOS. 
+
+NOTACAO 
+   v
+OPERACOES 
+
+JANELA 
+WINDOW
+VENTANA 
+
+ENTRADA PROCESSAMENTO E SAÍDA
+
+DADOS 
+
+EXEMPLO 
+
+MEDIA ESCOLAR 
+ESTRUTURA SEQUENCIAL
+
+INICIO PROGRAMA:
+
+NOTA1= 5            NOTAS VARIAVEIS
+NOTA2 = 8 
+RESULTADO = 0 
+
+RESULTADO = (NOTA1+NOTA2)/2     2:CONSTANTE 
+
+ESCREVA RESULTADO 
+
+
+FIM PROGRAMA
+
+SAIDA:6.5 
+
+
+E SE QUISER VERIFICAR SE O ALUNO FOI APROVADO OU NAO?
+
+ESTRUTURAS CONDICIONAIS E OPERADORES. 
+
+
+CONDICAO ESTADO DE UMA PESSOA OU COISA 
+
+CONDICIONAL  CONDICAO QUE EXPRESSA UMA CONDICAO OU SUPOSICAO 
+             CONTEM OU IMPLICA UMA SUPOSICAO OU HIPÓTESE.
+
+
+	  INVERDADE
+CONDICAO > EXCESSAO 
+   V SATISFEITA
+OPERACAO 
+
+ESTRUTURA CONDICIONAL
+SIMPLES 	COMPOSTA 	   ENCADEADA
+CONDICAO	CONDICAO EXECAO    CONDICAO CONDICAO EXCEÇAO 
+OPERACAO 	OPERACAO 	   OPERACAO  OPERACAO
+
+
+OPERADORES RELACIONAIS 
+
+SIMBOLO    SIGINIFICADO
+    =       IGUAL A 
+    <>      DIFERENTE DE
+    >       MAIOR QUE 
+    <       MENOR QUE 
+    >=      MAIOR OU IGUAL A 
+    <=      MENOR OU IGUAL A 
+
+
+CONDICIONAL SIMPLES 
+
+CONDICAO  
+OPERACAO  
+
+(INICIO)>>>>>>|A,B|>>>>>>>>>|X< A+B|>>>>>>>>N=X>10...S=X>>>>>(FIM)
+
+
+INICIO PROGRAMA
+
+A=O
+B=0
+X=0
+
+LEIA A
+LEIA B
+X= A +B
+ SE (X>10) 
+ESCREVA X
+FIM SE 
+FIM PROGRAMA
+
+
+CONDICIONAL COMPOSTA 
+
+CONDICAO EXCECAO
+OPERACAO 
+
+
+SE (<A CONDICAO ACONTECE>) 
+    <INSTRUCOES PARA CONDICAO VERDADEIRA>
+SENAO  
+    <INSTRUCOES PARA CONDICAO FALSA>
+FIM_SE
+
+
+CONDICIONAL ENCADEADO 
+
+CONDICAO CONDICAO EXCESSAO 
+OPERACAO OPERACAO 
+
+SE (<A CONDICAO 1 ACONTECE>) 
+    <INSTRUCOES PARA CONDICAO VERDADEIRA>
+SENAO  
+   SE (<A CONDICAO 2 ACONTECE>)ENTÃO
+   <INSTRUCOES PARA CONDICAO 2 VERDADEIRA E CONDICAO 1FALSAS
+SENAO 
+   <INSTRUCOES PARA CONDICAO 1 E 2 FALSAS>
+FIM_SE
+
+INICIO PROGRAMA
+
+A=0
+B=0
+C=0
+
+LEIA A
+LEIA B
+X= A + B
+SE (X >=10)
+    X=X-7
+SENAO 
+    X= X+5
+FIM SE 
+FIM PROGRAMA
+
+OPERADORES LOGICOS
+
+AND OR NOT 
+
+QUANDO UTILIZAR 
+
+*VERIFICAO  DE V OU F
+* SUBSTITUICAO 
+  *ENCADEAMENTO DE CONDICOES
+
+
+AND (E) OPERADOR LOGICO  INTERSEÇÃO 
+CONDICAO VERDADEIR
+*TODAS DEVEM SER SATISFEITAS ELE É SEMPRE FALSO SE 1 OU OUTRO  
+SE OS 2 SAO SATIFEITOS É VERDADEIRO 
+
+
+
+OR (OU) UNIAO 
+
+CONDICAO VERDADEIRA 
+*APENAS UMA DAS CONDICOES DEVE SER VERDADEIRA 
+
+NOT (NAO) 
+*OPERADOR DE NEGACAO 
+*INVERSAO DE RESULTADO 
+
+EX> 
+*NOT B- > tudo que nao esta em B... ou seja tudo que ta em A e nao em B.
+
+ESTRUTURAS DE REPETIÇÃO 
+
+TRECHO DE UM PROGRAMA
+
+LACOS 
+CONTROLE DE FLUXO 
+MALHAS DE REPETICAO 
+REPETICAO 
+LOOP
+
+CONDICOES DE PARADA
+* NUMEROS DE REPETICOES PR=E FIXADA
+*CONDICAO A SER SATISFEITA
+
+MAS NAO É SO REPETIR O CODIGO? QUAL A VANTAGEM? 
+
+REDUCAO DE LINHAS 
+COMPREENSAO FACILITADA
+REDUCAO DE ERRO.
+
+TEM MAIS DE TIPO DE ESTRUTURA DE REPETICAO 
+
+ENQUANTO.... FAÇA
+REPITA.... ATÉ
+PARA.....DE....ATE....FAÇA
+
+ENQUANTO 
+
+TESTE LÓGICO 
+*INICIO
+NUMERO DE REPETICOES 
+*INDEFINIDAS
+
+GRAMA ALTA 
+APARAR GRAMA
+
+GRAMA=FALSO
+ENQUANO (GRAMA==FALSO)FAÇA
+<INSTRUCAO DE CORTAR GRAMA>
+<ATUALIZA GRAMA>
+
+FIM ENQUANTO
+
+REPTA 
+*TESTE LOGICO 
+
+NUMERO DE REPETICOES 
+*INDEFINIDAS 
+
+PROCURAR ARTIGO 
+VIRAR PAGINA 
+ANALISAR CONTEUDO...
+
+
+PARA......DE.....ATÉ
+
+TESTE
+*INICIO
+
+NUMERO DE REPETICOES 
+*DEFINIDAS  
+
+SOMATORIO=0
+PARA INICIO=1 ATÉ 10 
+SOMATORIO= SOMATORIO+INICIO
+ESCREVENDO SOMATORIO 
+FIM PARA 
+
+(FOR) 
+
+CONSIGO MESCLAR AS ESTRUTURAS? UMA DENTRO DA OUTRA
+
+ENQUANTO (<CONDICAO>)
+
+SE (<CONDICAO2>)
+  <INSTRUCOES>
+FIMSE 
+
+....
+FIM ENQUANTO 
+
+
+VETORES E MATRIZES
+
+VETOR 
+UM VETOR É CARACTERIZADO POR UMA VARIAVEL DIMENSIONADA COM TAMANHO PRÉ-FIXADO 
+POSSUI UMA SEQUENCIA ... 
+CONTAINER, MATRIZ UNIDIMENSIONAL 
+
+MATRIZ
+MATRIZ É UMA TABELA ORGANIZADA EM LINHAS E COLUNAS NO FORMATO m X n, ONDE O M REPRESENTA O NUMERO DE LINHAS
+NA HORIZONTAL E n NUMERO DE COLUNAS NA VERTICAL 
+
+COLECAO DE VARIAVEIS 
+CONTIGUAS EM MEMORIA 
+INDICES 
+
+MEDIA ESCOLAR 
+
+NOTA11=10
+NOTA21=5
+
+NOTA12=7
+NOTA22=8
+
+NOTAS_ALUNO1 = [10,5]
+NOTAS_ALUNO2 = [7,8]
+
+NOTAS_ALUNOS=[10,5,7,8]
+A CADA DUAS POSIÇOES UM NOVO ALUNO 
+
+
+DEFINICAO 
+VETOR CONJUNTO [1..8]<INTEIRO>
+VETOR[15]
+vetor=[]
+ATRIBUIÇÃO 
+
+
+matriz_alunos[6][6]
+
+escreva "ID aluno"
+escreva matriz_alunos[0][0]
+escreva "Média"
+escreva matriz_alunos[0][0]
+
+
+
+FUNÇÕES
+
+MATEMATICA
+
+SUBALGORITMO
+BLOCO
+FUNÇÃO
+SUBPROGRAMA
+MÉTODO 
+SUB-ROTINA
+
+SIMILAR AO CONCEITO DE FUNÇAO MATEMATICA
+
+F: A___>B
+
+DEFINICAO FORMAL
+
+AS FUNCOES OU SUBROTINAS SAO BLOCOS DE INSTRUCOES QUE REALIZAM TAREFAS ESPECIFICAS, QUE PODEM SER CHAMADAS DENTRO DO CODIGO 
+PRINCIPAL.
+
+DECOMPOSICAO DE ALGORITMO
+MODULARIZACAO DE PROBLEMA
+
+FUNCAO? NAO E MAIS FACIL TER TUDO JUNTO?
+MODULARIZACAO DO PROGRAMA
+CODIGO MAIS CLARO E CONSISO
+REUTILIZACAO DE INSTRUÇÕES
+
+SAO BLOCOS DE INSTRUCOES (codigo), indentificados por nomes e parametros.
+
+Definicao
+Nome
+Invocacao
+Variavel Local    sao destruidas ao encerrar a funcao 
+
+
+DADOS-----FUNCAO-----RESULTADO
+
+AGORA VAMOS DETERMINAR A MEDIAS ESCOLAR ATRAVES DE UMA FUNCAO 
+QUAL GANHO QUE TEREMOS AO FAER ESSA MODIFICACAO 
+EXEMPLO 
+REUTILIZACAO DE CODIGO 
+
+MEDIA ESCOLAR
+FUNCAO MEDIAESCOLAR(NOTA1,NOTA2)
+RESULTADO =0
+RESULTADO = (NOTA1+NOTA2)/2
+
+RETORNE RESULTADO 
+
+FIM FUNCAO 
+
+ALUNO1= MEDIAESCOLAR(NOTA11/NOTA21)
+ALUNO2= MEDIAESCOLAR(NOTA12/NOTA22)
+ALUNO13=MEDIAESCOLAR(NOTA13/NOTA23)
+
+
+INSTRUCOES DE ENTRADA E SAIDA 
+
+
+DEFINICAO FORMAL DE ENTRADA
+
+CONSISTE NA INSERCAO E RECEBIMENTO DE DADOS DO MUNDO REAL POR MEIO DE ACAO DE ALGUMA INTERFACE, SEJA TECLADO, MOUSE, ARQUIVOS, ENTRE OUTROS. 
+
+INTERFACES RELACIONAS AO AMBIENTE COMPUTACIONAL QUE PERMITE INSERIR DADOS E INPRIMIR DADOS.
+
+DEFINICAL FORMAL DE SAIDA
+
+CONSISTE NA IMPRESSAO DOS DADOS DO MUNDO ABSTRATO, DIGITAL POR MEIO DE ACAO DE ALGUMA INTERFACA.
+OS FORMATOS PODEM VARIAR DESDE SIMPLES ARQUIVOS BINARIOS ATE COMPLEXAS QUERYS DE BANCO DE DADOS. 
+
+
+EXISTEM DOIS TIPOS DE SAIDAS DENTRO DE UM PROGRAMA (ALGORITMO)
+
+SAIDA PROGRAMADA (CONDICIONAL OU INCONDICIONAL) CONDICIONAL AGUARDA O DISPOSITIVO.
+SAIDA POR INTERRUPCAO (DEFINIDA PELOS PERIFERICOS) ALGUMA COISA ACONTECEU Q INTERROMPE 
+
+CASOS
+
+*BEM SUCEDIDAD
+*ERRO DE SINTAXE OU OUTRO 
+*ERROS DE PROGRAMACAO 
+*PROBLEMAS COM A INTERFACE
+
+SAIDA NA PROGRAMACAO 
+CÓDIGO.
+
+INTRODUCAO A LINGUAGENS DE PROGRAMACAO 
+
+OBJETIVO DESTA AULA E APRESENTAR OS PARAGIMAS DE PROGRAMACAO EXISTENTES, INCLUINDO O CONCEITO EM SI.
+AS LINGUAGENS DE PROGRAMACAO SAO BASEADAS EM UM OU MAIS PARADIGMAS, SENDO O ULTIMO CASO CONHECIDO COMO LINGUAGEM MULTIPARADIGMA.
+
+POR QUE FALAR DA HISTORIA DA COMPÚTACAO?
+*COMPREENDER AS DIFICULDADES ENFRENTADAS
+*FUNDAMENTOS DA COMPUTACAO
+*O PROCESSO DE PENSAMENTO
+BASE EM PESQUISAS ANTERIORES,,, NOVOS PARADIGMAS,,, 
+
+HARDWARE>>>>SOFTWARE>>>
+
+ALAN TURING PAI DA INFORMATICA...
+
+NACK
+EDVACK
+
+1975 INTEL 8080
+LINGUAGEM BASIC-
+
+*1949
+Assembly
+
+*Primeira linguagem
+
+*Linguagem de 
+ *Montagem
+ *Máquina 
+
+
+Cobol Pós Eniac
+Lisp
+Fortram
+
+
+
+Problema Computacionais
+
+Objeto de discussao que possui instruções passo a passo que são facilmente resolvìveis em ambiente computacional.
+
+Problemas de decisão***Problemas de Busca****Problemas de otimização.
+
+Problemas de decisao 
+*caracter logico - Bolleano Sim ou Nao 
+Udeua 
+*Pertencimento 
+
+Dado um numero N inteiro positivom determine se N é Primo 
+
+Problemas de busca 
+
+*Relacionamento binario
+*Objetivo 
+ *semelhante ao nome 
+ *x está em A?
+
+* Recorrente em teoria de grafos
+ *Clique.
+
+
+Problemas de Otimização
+
+Objetivo..
+*Maximizar ou * Minimizar uma função
+
+O que é uma linguagem de programacao 
+Metodo padronizado composto por um conjunto de regras sintáticas e semânticas de implementação de  um código fonte.;
+conjnto de palavras reservados 
+condigo fonte que pode ser traduzido ou interpretado.
+
+
+Como um computador entende o programa
+
+Codigo fonte>>>>>> Tradução e Interpretação
+
+Traducao execução mais rapida  (C++, Java)
+Interpretacao Programa menores (Javascript, Ruby, python)
+
+Um programa é uma amontoado de palavras senão for possivel que o computador entenda.
+Processo de tradução 
+Linguagem de alto nivel 
+Compilador (executa a analise do programa)
+Linguagem de maquina (Assembly) Programa objeto 
+
+
+Traducao 1 Geracao de programa objeto 2 exxecucao do programa objeto
+Interpretação Programa fonte executado diretamente.
+
+Source code   (Programa fonte )
+Pure interpreter (Interpretador)
+Executuion Results (Execuçaõ
+
+Caracteristicas de um programa.
+Basta sair programando?
+Existe alguma boa pratica a programaçao?
+
+Sim existe importantes caracteristicas de um programa
+
+
+
+
+Deselvolvimento de programas>>>Legibilidade>>>>Redigibilidade>>>>>Confiabilidade>>>>Custo..
+Diretrizes.
+
+Legibilidade
+*Facilidade de leitura            CODIGO LEGIVEL
+*Compreensão
+*Ortogonalidade
+*Definição adequadas das estruturas    
+
+
+
+Redigibilidade
+*Pode conflitar com a legibilidade
+*Ortogonalidade
+*Simplicidade da escrita            FACIL ESCRITA
+*Suporte á abstração
+*reuso do código
+*Expressivo  
+Operador ++
+uso do for
+
+
+
+Confibialidade
+Possui:
+*verificação de tipos             Faz o que foi programado pra fazer. 
+*Trata exceções
+*Uso de ponteiros
+*Compatibilidade entre compiladores 
+
+
+Custo 
+Possui:
+*Treinamento
+*Codificação            Analise de Impacto
+*Compilação
+*Execução
+*Infra-estrutura
+
+Outras caracteristicas
+
+Atualizacoes
+Usao para IA
+Disponibilidade de ferramentas
+Comunidade ativa
+Adoção pelo mercado
+
+
+Analises de código. 
+
+Lexycal Analyzer>>>>Sytax>>>>Semantica
+
+Particionar   
+Classificar
+Eliminar
+
+
+Lexycal
+Leitura do programa fonte 
+
+ANALIZE LÈXICA
+
+Particionar
+Elementos denominados |TOKENS Vai Agrupar 
+
+
+Classificar
+Elementos: Indentificadores,palavras reservadas, numeros, strings.
+
+Eliminar
+Caracteres em branco, comentários,....
+
+ANALIZE SINTATICA
+
+*******Forma*****
+
+Sitaxe: 
+"componente do sistema linguístico que interligam os constituintes da sentença, atribuindo-lhe uma estrutura"
+
+Padrão - gramatica
+*Depende da linguagem de programação utilizada.
+
+Corretude do programa.
+
+
+Analise Semantica
+
+**********Significado ********
+
+Semantica:
+"è o estudo do significado. Incide sobre a relação entre significantes, como:palavras, frase, sinais e simbolos"
+
+Logica do programa.....
+
+Erro de semantica:
+*nao faz o que é esperado 
+
+if (x=0) (1 sinal de igual é atribuicao 
+printf(" O valor é nulo\n");
+
+
+if(x==0) (2 sinal de igual comparacao)
+printf(" O valor é nulo \n");
+
+
+Paradigmas de programação
+
+
+o Que é um paradigima
+
+Definicao formal 
+
+"Forma de resolucao de problemas com diretrizes e limitacoes especificas de cada paradigma ultizando linguagem de programação"
+
+Exemplo de paradigmas 
+
+*Orientacao à objeto (Python,Lua,C++,JAVA)
+*Procedural   (Chamadas sucessivas e procedimentos separados sequencial) (Fortran,Lua)
+*Funcional    (Instruções são baseadas em funções;) (Lua,Javascript,python,java)
+*Estruturado  (Estrutura de blocos aninhados)(C++,javascript,C,Java, C)
+*Computação distribuída (Funções executadas de forma independente) (ADA)
+*Lógico  (Java)
+
+
+Paradigma estruturado 
+
+Conceitos:
+*Sequencia
+*Decisão         Teste lógico 
+*Iteração      Funções, laços, condiçoes
+Linguagem C
+
+Enfase em sequencia 
+Linguagem C
+Utilização
+*Problemas simples e diretos
+*Aprender programação
+
+POO ainda não compreendida por muitos
+
+
+Conceitos; 
+*Sequencia 
+*Decisao 
+*iteração 
+
+function fatorial (x) {
+if (x>1){
+return x*fatorial(x-1);
+}
+}
+
+
+Paradigma de programação baseado na utilização de objetos e suas interações
+
+Analogo ao mundo real 
+
+O que é um Objeto
+
+Tudo ....
+
+Um objeto é desrito por caracteristicas especificas, comportamento e estado
+
+O que tenho 
+Sou capaz de fazer
+Como faço
+
+
+
+ O que tenho     Sou capaz de fazer      como faco 
+   modelo           escrever             tampada 
+   cor              desenhar             destampada
+   carga            rabiscar             em uso 
+   corpo            pintar 
+   tampa            destampar 
+   ponta 
+
+O que tenho / Atributo
+Sou capaz de fazer / Método       orientação a objeto
+Como faço /Estados
+
+
+Classificacao 
+
+Modelo 
+
+Atributos
+Métodos 
+Estados
+
+
+Ponto de vista da programação
+
+Classe 
+Alocacao em memoria 
+Operacoes associadas  POO
+
+Estruturado 
+Alocacao de memoria 
+Operacoes associadas   Variavel 
+
+
+
+Classe cane():
+cor:Inteiro
+carga: Caracter
+tampada: lógico
+
+metodo escrever()
+Se estado tampada 
+Escreva ("Destampar")
+Senão
+Escreva ("algo")
+Fimse
+
+metodo tampar()
+Tampada=verdadeiro
+fimclasse
+
+
+
+
+Pilares da orientação a objeto
+
+Herança
+Encapsulamento
+Polimofismo
+Abstração
+
+
+Heranca
+
+Classe filha herda caracteristicas de classes mae
+Atributos metodos (Comportamentos proprios. e estados espercificos)
+
+POO>>>>>REUSO DE CÓDIGO
+PE>>>Problemas especificos e diretos
+
+
+Algoritmos em protugol
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
