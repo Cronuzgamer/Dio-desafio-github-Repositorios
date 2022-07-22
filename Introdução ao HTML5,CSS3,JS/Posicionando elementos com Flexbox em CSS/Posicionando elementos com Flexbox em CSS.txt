@@ -1,0 +1,163 @@
+Estruturas Basica 
+
+
+Flexbox 
+
+Foi projetado como um modelo de layout unidimensional e como um metodo  que pode oferecer
+distribuição de espaço entre itens em uma interface e recurso de alinhamento.
+
+
+Flex Container 
+
+{e a tag que envolve os itens, será nela que iremos aplcar a propriedade "display: flex"; Transforma todos os seus itens filhoes em flex itens. 
+
+
+Container. 
+
+
+Propriedades Relacionadas
+*Display 
+*Flex-direction
+*Flex-wrap
+*Flex-flow
+*Justify-content
+*Align-Items
+*Align-content
+
+
+Flex Item
+
+Sao os elementos filhos diretos do Flex Container, E tambem podem se tornar Flex Container
+
+Container
+
+flex-item1  Flex-item2 Flex-item 3
+
+
+
+Propriedades Relacionadas
+*flex-grow
+*flex-basis
+*flex-shrink
+*flex
+*order
+*align-self
+
+
+Fundamentos Flex container
+
+CSS Flexbox
+
+Display Flex
+
+(HTML SNIPPETS
+LIve HTML PREVIWER
+
+
+div.item * quantidade de item Tab
+
+Flex direction 
+
+comportamento padrao horizontal ´
+
+È a propriedade que restabelece o eixo principal do container, definindo assim 
+a direcao que os flex itens sao colocados no flex container.
+
+row(padrao): a direcao do texto, esquerda pra direita 
+1>2>3>4
+
+row-reverse: sentido oposto a direcao do texto
+4<3<2<1
+
+column: ordenacao de cima para baixo. em coluna unica
+1
+2
+3
+4
+
+column-reverse: ordenacao inversa. de baixo pra cima
+4
+3
+2
+1
+
+Flex-Wrap
+
+é a propriedade que define se os itens devem ou nao quebrar a linha
+
+por padrao eles nao quebram linhas, isso faz com que os flex itens sejam compatados alem do limite do conteudo
+
+nowrap: e o padram nao permite a quebra de linha, onde os elementos vazam
+
+wrap: permite a quebra de linha assim que um dos flex itens nao puder mais ser compatado 
+
+
+wrap-reverse
+permite a quebra de linha assim que um dos flex itens nao puder mais ser compatado , porem na direcao contraria da linha acima
+
+
+Flex-flow 
+É uma atalho para as propriedades flex-direction e flex-wrap
+
+porem seu uso nao e tao comum, visto que, quando mudamos o flex-direction para column, mantemos o padrao do flex-wrap é nowrap.
+
+Justify-Content
+
+Essa Propriedade vai se encarregar de alinhar os itens 	dentro do container de acordo com a direção pretendida e tratar da
+distribuição de espaçamento entre eles.
+
+
+
+variacoes 
+*flex-start inicio do container
+*flex-end final do container
+*center
+*space-between cria um espacamento igual entre os elementos.
+*space-around: os espaçamentos do meio sao duas vezes maiores que os finais.
+
+
+Align-items
+
+*trata do alinhamento dos flex itens de acordo comm o eixo do container.
+
+O alinhamento é diferente para quando os itens estão em colunas ou linhas.
+
+Permite o alinhamento central no eixo vertical.
+
+*center: alinhamento dos itens ao centro
+*strech: padrão, e os flex itens cres~a, igualmente
+*flex-start: alinhamento dos itens no inicio¨
+*flex-end: alinhamento dos itens no final
+*baseline: alinhamento de acordo com a linha base da tipografia dos itens.
+
+align-content
+é a propriedade responsavel por tratar o alinhamento das linhas do container em relaçao ao eixo vertical do container.
+
+*precisamos que: 
+*o container utilize quebra de linhas
+* a altura do container seja maior que a soma das linhas dos itens
+
+Tipos de alinhamento
+*center: alinhamento dos itens ao centro
+*stretch: é o padra e os flex itens crescem igualmente.
+*flex-start: alinhamento dos itens no inicio
+*flex-end: alinhamento dos itens no final
+*space-between: cria um espaçamento igual entre os elementos 
+*space-around: os espaçamentos do meios sao duas vezes maiores que o inicio e final
+
+Flex-grow
+Define a proporconalidade de crescimento dos itens, respeitando o tamanho de seus conteudos internos.
+
+Obs: nao ira funcionar caso tenhamos adicionado justify-content ao nosso flex container.
+
+
+flex-basis
+
+é a propriedade que estabelece o tamanho inicial do item antes das distribuição de despaço restante
+dentro dele, usando como base o conteudo interno disposto.
+
+valores possiveis. 
+*auto. Caso o intem nao tenha tamanhao, este sera proporcional ao conteudo do item.
+*pixel,%,em, ...: sao valores exatos previamente definidos
+*0 (zero): tera relacao direta com a definicao do flex-grow.
+
